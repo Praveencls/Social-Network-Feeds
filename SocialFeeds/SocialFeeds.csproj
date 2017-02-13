@@ -156,12 +156,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\CustomGetInternalLinkFieldValue.cs" />
-    <Compile Include="Classes\CustomLinkField.cs" />
-    <Compile Include="Classes\CustomLinkRenderer.cs" />
-    <Compile Include="Classes\InsertLinkDialogTree.cs" />
     <Compile Include="Controllers\SocialFeeds\SocialFeedController.cs" />
-    <Compile Include="CustomFields\FieldExtensions.cs" />
     <Compile Include="Domain\Extensions\DictonaryHelper.cs" />
     <Compile Include="Domain\Extensions\ItemExtensions.cs" />
     <Compile Include="Domain\Extensions\StringExtensions.cs" />
@@ -193,9 +188,6 @@
     <Compile Include="Domain\ViewModels\Common\Social\TwitterTweetItem.cs" />
     <Compile Include="Domain\ViewModels\Common\Social\YouTubeApi.cs" />
     <Compile Include="Domain\ViewModels\SocialFeeds\Modules\SocialFeedViewModel.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -445,8 +437,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
-    <Folder Include="Models\" />
-    <Folder Include="Presentation\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
