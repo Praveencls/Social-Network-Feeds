@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@inherits System.Web.Mvc.WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+    <title>Social Feed</title>
+
+    @* @Html.Sitecore().VisitorIdentification() *@
+</head>
+<body>
+
+    
+    <h1>Social Feed</h1>
+    <div>
+        @Html.Sitecore().Placeholder("main")
+    </div>
+</body>
+</html>

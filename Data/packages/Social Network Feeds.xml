@@ -1,0 +1,312 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Social Network Feeds</PackageName>
+      <Author>Unicolumn</Author>
+      <Version>1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Layouts/MVC Layout/{D37CA707-1E1D-4710-A042-F26714044843}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Social Feeds/{DF1CEBBD-834D-4E1B-977F-66435B2D6C10}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Social Feeds/Social Feeds/{29F368AA-2A7A-4ED1-9A72-D89A93B821AE}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/{0102B693-807D-45B0-99F3-1B00854CD828}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/{C420E4FD-B42F-478B-822A-155F8D0868D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/facebook/{D0577246-7D95-48EA-A19B-BF2D6BE95BA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/flickr/{9A97C00A-2FF5-4E12-8119-061C8DCA56F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/instagram/{76A7AA03-4A9D-44BB-929C-63B150876A79}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/pinterest/{767A7F64-69DA-412E-A522-FCEEE6B982C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/twitter/{C5D49D43-838E-4267-B86A-42362F1B98FD}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/SocialFeeds/Global Images/youtube/{93024584-8F40-4A0F-AD0C-E68C1993819B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/{319E4C32-7ED8-4DE3-A97A-C1B3E6804D8E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Hash Tags/{69CBECFC-CD4C-4791-8F16-321991CBAE47}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Hash Tags/Jeffrey/{8A3CD606-DF72-4A36-A468-FF9AA6EEFB89}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Hash Tags/Sitecore/{6859B480-9925-491C-BB30-CB4042F69501}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/{9DD4D233-232D-4F66-8A07-E9431F673667}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/{AF7BCA0A-4C7F-4ACA-9956-E4801143775A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/Facebook Feed/{57187C22-5E4C-4C37-8A86-9B3AFC0F76D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/Flickr Feed/{A234C2B2-7DA2-4456-94C7-59D9B47B9D4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/Instagram Feed/{021395B3-6EF0-487F-AA76-52A906763C9D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/Pinterest Feed/{A1DC3EB2-F5C0-4C1F-A789-E8A6E8B7AB60}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/Twitter Feed/{E9F38144-CCA6-46A1-A45F-0745576673FE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Feeds/Default/YouTube Feed/{C2D8CB04-AA90-4ACA-BEE2-A6EE829DF9F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/{712B070A-45C5-4D0E-8D26-F1BE0F07C657}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Facebook Accounts/{779FEF97-95EA-449E-90C7-784391A403A5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Facebook Accounts/Copy of Facebook Account/{36D68565-3ACC-4819-8114-2A296630F776}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Facebook Accounts/Facebook Account/{4A935790-901C-4499-972A-70AC91494402}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Flickr Accounts/{D8696694-8E91-47B0-9B6E-A6A9A3BAD6DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Flickr Accounts/Flickr Account/{25072A89-8D62-4DB6-9378-DF84D6BC1BE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Instagram Accounts/{55B8AD66-4B63-47A2-A1BB-4742C03F6B4C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Instagram Accounts/Instagram Account/{B59642D5-E9DB-443E-B318-1C2A0BBE9ADC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Pinterest Accounts/{E578CF1D-DBBB-4DF7-88FB-50A2A96975E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Pinterest Accounts/Pinterest Account/{ECD7AD68-5058-4C6C-A5AE-B59071111676}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Twitter Accounts/{2E5DC837-BBDD-4891-9DA4-A53865471143}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/Twitter Accounts/Twitter Account/{7895722D-C8C6-4375-919F-F8CE40F20E1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/YouTube Accounts/{2A4C942B-E4EE-4FFA-9A86-FAD4448657CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Accounts/YouTube Accounts/YouTube Account/{F023935D-8905-40AC-A87C-98E31EA4128E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/{6D3618E3-B8C9-4EC1-AF81-E51BCB6877DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/Facebook/{AAF21D0C-871D-4739-8D4E-1AD6D2686C52}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/Flickr/{5BD312C3-91BB-4AE9-B5E6-48B264077096}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/Instagram/{05AD0493-E1E8-42C2-88BF-92E9F03A2FDB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/pInterest/{80524B13-4DD4-4FC5-B00B-0A2051D3794B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/Twitter/{38B9A67D-5B2C-4092-9D46-7503A2BC7564}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Social Feeds/Social Media Links/YouTube/{BDF66540-976E-4331-A0B8-A808F2C8E140}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/{40E41B34-20F4-4004-BDB2-BDF1F039FBBA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/{D7718850-4B00-499A-A511-79ACABBA1575}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Accounts Folder/__Standard Values/{6DFA7160-29EF-4C12-BDA9-116A8C35C41E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Accounts Folder/{49F462C1-6B7F-49FF-B2E4-4CEF9F7D28F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Hash Tags Folder/__Standard Values/{A327C59A-8A1B-4BBC-99EB-EE0888315EB0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Hash Tags Folder/{AF9B75A2-D323-47D7-BFA7-0D0FD617661A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Feed Folder Collection/__Standard Values/{436300B5-0394-43FF-A48B-CDAFF69681E9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Feed Folder Collection/{3CC0C18B-60CF-448C-8188-2A903F3329FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Account/__Standard Values/{9650D5B3-4AE6-4D71-BD0D-8EC7E3689CF5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Account/{41463A83-32F6-4581-8BB7-3DD6B5D36B7F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Accounts Folder/__Standard Values/{4E34D4E7-9B94-4156-BC3E-93E16D2E188C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Accounts Folder/{A4D97932-0737-4DD4-8FF8-6556D8E7583C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Feed/__Standard Values/{493D108F-D321-47F4-8146-4335BA3F9348}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Feed/{806344CC-54C1-42DA-B9DA-26A5A6AE8DE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Feed/Social Feeds Section/{9DAA6D71-03BF-481B-B98F-38FF6B29FD7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Feed/Social Feeds Section/Number of Posts/{4B3D8B82-9F95-4891-BC49-7BE5E5C17076}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Folder Collection/__Standard Values/{4DF6EF2E-3813-4123-AA11-C5C4ABC9E7A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Folder Collection/{6A2A9E36-7CBF-4F2F-83B3-92C88A559431}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Link Folder/__Standard Values/{E1C0207E-2D05-40FD-945A-96B19D042FE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media Link Folder/{4DE3ABE7-1B01-47D9-B14E-B43831A3B616}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media/__Standard Values/{BD33AFF7-2AF1-4069-B37F-27CA0810FD94}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media/{FAFE89C6-31DC-49F8-9108-C3E416F55837}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media/Social Media/{47630057-3543-49D9-AC58-81F42ECDAE7E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Folders/Social Media/Social Media/Select Social Links/{E342CA3C-C397-48AD-8F94-8827D72112EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/{AEBE3037-FCE2-4B06-A5AC-DF0A2D83BC08}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Media Link/__Standard Values/{49040F17-2E7A-4937-8A88-79F0FEC187A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Media Link/{8CE78279-D09B-4AA8-8DE3-A2A54A3FBE5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Media Link/Social Media Link/{170AC027-4B06-4319-AA91-48D2F782181F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Media Link/Social Media Link/Icon/{1831A482-6CFF-459F-97B0-1837DF1758F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Sharing Link/__Standard Values/{60E35007-7138-4A00-B743-71424623AB07}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Sharing Link/{5E539D62-841F-4A1D-A876-CE43674226C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Sharing Link/Social Media Link/{36023753-52E8-428F-B179-8A7F0EFCFB1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Sharing Link/Social Media Link/Sharing Icon/{70E44E67-EE0B-48B3-9D24-F289F2B11E2D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Links/Social Sharing Link/Social Media Link/Social Link CssClass/{1C30A4DC-F530-4A1F-BBA8-3C573AE8854F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/{1B298826-B647-44A0-B5F6-0066EE497398}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/{CCFEDC21-16A9-4F38-89B9-F5ADC0F8A5E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/__Standard Values/{954DE6D0-F64B-4D2D-A428-9B6C049EEF62}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/{C3749412-BFA3-463A-808D-FCF0FEC5D146}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/Facebook Account/{4F02CAE0-7614-4397-AAD9-B424BC0B285D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/Facebook Account/API ID/{57A62573-92AF-4CBF-97C0-0702F4C4C8A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/Facebook Account/API Key/{67363827-C5A2-4F78-9572-E96B8BA02A23}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Facebook Account/Facebook Account/Social Link/{FD7ED02D-B02D-4940-A7CA-08D33B8D1222}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Flickr Account/__Standard Values/{454B594A-E4E5-4E6F-B558-A44CCB3D9A7F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Flickr Account/{3D3DD041-AF34-46EC-A802-CDA9BF6F3298}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Flickr Account/Flickr Account/{B109E217-FEF3-462F-8648-96C234A6A059}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Flickr Account/Flickr Account/Account ID/{A2C8AED3-7D2E-4456-A021-1781D1C636A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Flickr Account/Flickr Account/Social Link/{4728D5A6-F6AE-49FB-A301-B2A82AD5B37A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/__Standard Values/{E6A66754-0FA2-4FFE-B5B2-B4E50CF2F724}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/{A780BB3C-2E1D-4F43-B1F5-1FE02B58F548}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/Instagram Account/{1ED6448F-0706-4F50-B308-B64483D7A7DD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/Instagram Account/Instagram Access Token/{89B5FA07-F214-4BBC-8243-52B0B1AF1F01}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/Instagram Account/Instagram Client ID/{E593F9B2-10FD-4897-B37D-B7E88E569272}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Instagram Account/Instagram Account/Social Link/{5E64BF75-8DF1-42AF-AC86-B4C6B17FC61A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Pinterest Account/__Standard Values/{3B864F3E-B50E-4549-9E35-7A7975E3FF29}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Pinterest Account/{39BBE355-44A6-4D10-995B-27BA5E2E7D2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Pinterest Account/Pinterest Account/{3039A3D2-6FC6-4F42-820A-6CC6867263C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Pinterest Account/Pinterest Account/Account ID/{EBB28854-EC2A-4797-B7BC-B6598CCCE854}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Pinterest Account/Pinterest Account/Social Link/{37A2F50C-C8E8-476D-9FF1-0D480775BD1C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/__Standard Values/{1000123C-ED7C-4E7E-A75F-0DE06E0CD1A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/{0859317A-8759-41FA-88FC-C01B36C1BDA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/{CEB45814-BE30-4F80-81C8-B74629435239}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/Social Link/{CB3EA11B-495C-421D-B6D3-82C3ABA2571F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/Twitter Consumer Key/{03FA72CF-C586-4AF9-A7CF-84C06C4EC3DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/Twitter Consumer Secret/{0D5E63C7-B310-4CA9-8FF6-1AA31EE74AA7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/Twitter Token Secret/{C83010CE-D910-4CD0-AD60-2491103B4B0E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/Twitter Account/Twitter Account/Twitter Token/{F02BA7B8-FE3D-47C2-8521-CA1AEB8CFC21}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/__Standard Values/{57E0B012-8EF7-4651-BA2B-C1A063485C78}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/{7FFF4E33-E801-427B-B572-C966FFEDA366}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/YouTube Account/{D12F21D9-B576-44C4-BA71-E2DEE979DAB9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/YouTube Account/Account API Key/{9D7474E2-1556-4E29-A3DD-B9BB052F13FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/YouTube Account/Account ID/{2E61AF4F-23B3-44B0-81CA-464C23ED9418}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Accounts/YouTube Account/YouTube Account/Social Link/{4D410458-6C2E-4E1B-ABFC-0501D990022D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Base Feed/{6A024D16-E04B-4B1D-8944-FA6929F75203}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Base Feed/Feed Priority/{5C994D39-DB6B-4BC6-8BA1-94016455371F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Base Feed/Feed Priority/Feed Priority/{63F63804-373D-4796-B2CF-BD60D0902F6D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Facebook Feed/__Standard Values/{420A2A16-2921-413B-9ABF-A7B235E3EDFB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Facebook Feed/{ECA84AD5-F2F5-4472-BE23-089B21E72F23}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Facebook Feed/Facebook Feed/{6EF024F4-823E-4594-BC2C-16716486FADE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Facebook Feed/Facebook Feed/Facebook Account/{90982FD6-8FDD-4141-BA3C-4B4DD44D2ACF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Flickr Feed/__Standard Values/{30789DE6-1398-4D65-B7CB-E04025A88AD2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Flickr Feed/{F47902E7-CB18-42C3-9A7C-EAC0F332EF4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Flickr Feed/Flickr Feed/{E79BA03B-B437-4BE5-9EF5-C6588967D59F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Flickr Feed/Flickr Feed/Flickr Account/{E5A930D6-06BB-4F16-9BD3-40DE51772602}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Hashtag/{CE17F811-DFEB-44ED-8F1F-9CEE448095A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Hashtag/Hashtag/{4491CE90-95BD-4B3A-A05F-C09E135C5AE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Hashtag/Hashtag/Value/{EC40DDB9-0157-4F20-8D0D-B7B697FCCAE7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Instagram Feed/__Standard Values/{79E962D5-2054-47AE-9D3E-A9C87192F787}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Instagram Feed/{559CF6D5-4141-4A9A-BBFE-A261A19F0578}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Instagram Feed/Instragram/{1931310F-4123-4591-94AA-C0C74A0BA033}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Instagram Feed/Instragram/Hashtags/{9EC61773-385C-4BFA-86D5-A0A94B5F5A8F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Instagram Feed/Instragram/Instagram Account/{D58C6733-0466-43A2-98C4-AFA208902E27}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Pinterest Feed/__Standard Values/{13BDEDF0-4753-4C81-812D-AEFEB3199CFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Pinterest Feed/{176794E8-3BB9-4ACB-9F2C-95C0CF0669AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Pinterest Feed/Pinterest Feed/{520CD9D1-9C79-42FF-ADD0-DF4A4FACFCFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Pinterest Feed/Pinterest Feed/Pinterest Account/{7A4AF9E2-4A43-42EA-99BB-F1B9B68D379E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Twitter Feed/__Standard Values/{08707DB8-6794-496C-9A0D-9B866D010B95}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Twitter Feed/{3400511E-8C16-4504-BAF2-13F387EF6603}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Twitter Feed/Twitter/{C8C4DCF7-6096-41A9-B620-AF13A605F8FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Twitter Feed/Twitter/Twitter Account/{A0039209-55B5-4836-AA02-B6F7B41091DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/Twitter Feed/Twitter/Twitter Hashtags/{72EA9B41-5BA8-48CA-BAEF-9CD19075AB88}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/YouTube Feed/__Standard Values/{6ED6E6F9-AD24-452D-A6E4-17C11848CAFB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/YouTube Feed/{856B42A0-8BBE-47C5-BF69-1DE5AD29259E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/YouTube Feed/YouTube Feed/{AE60299E-9F12-46E3-9AAB-85EDE6AAABBB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Social Feeds/Social Media/YouTube Feed/YouTube Feed/YouTube Account/{6F0479F1-5CF7-4FDE-BE7A-9E3AE8A4FA3E}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Social Network Feeds</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/SocialFeeds/FeedsSetting.config</x-item>
+        <x-item>/bin/socialfeeds.dll</x-item>
+        <x-item>/bin/SocialFeeds.Domain.dll</x-item>
+        <x-item>/Views/MVC Layout.cshtml</x-item>
+        <x-item>/SocialFeeds/Assets/</x-item>
+        <x-item>/SocialFeeds/Assets/dcsns_wall.css</x-item>
+        <x-item>/SocialFeeds/Assets/images/</x-item>
+        <x-item>/SocialFeeds/Assets/images/bdr1.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/bdr2.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/bg_shadow.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/comments.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/controls.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/controls1.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/delicious.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/deviantart.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/digg.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/dribbble.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/facebook.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/flickr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/google.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/instagram.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/lastfm.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/pinterest.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/rss.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/stumbleupon.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/tumblr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/twitter.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/vimeo.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark/youtube.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/delicious.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/deviantart.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/digg.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/dribbble.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/facebook.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/flickr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/google.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/lastfm.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/pinterest.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/rss.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/stumbleupon.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/temp.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/tumblr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/twitter.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/vimeo.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-dark-1/youtube.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/delicious.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/deviantart.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/digg.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/dribbble.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/facebook.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/flickr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/google.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/instagram.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/lastfm.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/rss.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/stumbleupon.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/tumblr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/twitter.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/vimeo.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light/youtube.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/delicious.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/deviantart.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/digg.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/dribbble.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/facebook.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/flickr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/google.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/instagram.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/lastfm.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/pinterest.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/rss.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/stumbleupon.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/temp.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/tumblr.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/twitter.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/vimeo.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/dcsns-light-1/youtube.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/hot.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/likes.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/loading.gif</x-item>
+        <x-item>/SocialFeeds/Assets/images/loading_dark.gif</x-item>
+        <x-item>/SocialFeeds/Assets/images/loading_light.gif</x-item>
+        <x-item>/SocialFeeds/Assets/images/loves.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/noize.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/profile.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/share.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/shares.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/tracks.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/users.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/videos.png</x-item>
+        <x-item>/SocialFeeds/Assets/images/views.png</x-item>
+        <x-item>/SocialFeeds/Assets/jquery-1.11.1.min.js</x-item>
+        <x-item>/SocialFeeds/Assets/jquery.social.stream.custom.js</x-item>
+        <x-item>/SocialFeeds/Assets/jquery.social.stream.wall.1.6.js</x-item>
+        <x-item>/SocialFeeds/Assets/socialfeeds.css</x-item>
+        <x-item>/SocialFeeds/Layouts/</x-item>
+        <x-item>/SocialFeeds/Layouts/SocialFeed.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>code base</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

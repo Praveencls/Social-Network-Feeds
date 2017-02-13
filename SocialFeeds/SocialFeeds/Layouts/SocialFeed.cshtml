@@ -1,0 +1,92 @@
+﻿@using Sitecore.Mvc
+@using SocialFeeds.Domain.Extensions
+
+@inherits System.Web.Mvc.WebViewPage<SocialFeeds.Domain.ViewModels.SocialFeeds.Modules.SocialFeedViewModel>
+
+@{
+    var facebookApiItem = Model.FacebookApi;
+    var twitterApiItem = Model.TwitterApi;
+    var instagramApiItem = Model.InstagramApi;
+    var youTubeApiItem = Model.YouTubeApi;
+    var pinterestApiItem = Model.PinterestApi;
+    var flickrApiItem = Model.FlickrApi;
+}
+
+@if (Model.ShowSocialFeed)
+{
+
+    <link href="/SocialFeeds/Assets/socialfeeds.css" rel="stylesheet" />
+
+    <script src="~/SocialFeeds/Assets/jquery-1.11.1.min.js"></script>
+    <script src="~/SocialFeeds/Assets/social.networkfeeds.js" type="text/javascript"></script>
+    <script src="~/SocialFeeds/Assets/isotope.pkgd.min.js"></script>
+
+    <div class="social-feeds">
+        <div class="social-filter">
+            <div id="social-stream">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function ($) {
+            $(document).ready(function($) {
+                $('#social-stream').SocialNetworkFeedsStream({
+                    feeds: {
+                        twitter: {
+                            id: '@twitterApiItem.HashTagsWithTokens',
+                            url: '/api/sitecore/socialfeed/get',
+                            icon: '@twitterApiItem.Icon',
+                            priority:parseInt(@twitterApiItem.Priority)
+                        },
+                        facebook: {
+                            id: "@facebookApiItem.ApiId",
+                            url: '/api/sitecore/socialfeed/get',
+                            icon: '@facebookApiItem.Icon',
+                            priority:parseInt(@facebookApiItem.Priority)
+                        },
+                        youtube: {
+                            id: '@youTubeApiItem.AccountId',
+                            thumb: 'medium',
+                            api_key: '@youTubeApiItem.AccountApiKey',
+                            icon: '@youTubeApiItem.Icon',
+                            priority:parseInt(@youTubeApiItem.Priority)
+                        },
+
+                        instagram: {
+                            id: '@instagramApiItem.HashTags',
+                            accessToken: '@instagramApiItem.AccessToken',
+                            clientId: '@instagramApiItem.ClientId',
+                            comments: 3,
+                            likes: 10,
+                            icon: '@instagramApiItem.Icon',
+                            priority:parseInt(@instagramApiItem.Priority)
+                        },
+                        pinterest: {
+                            id: '@pinterestApiItem.AccountId',
+                            icon: '@pinterestApiItem.Icon',
+                            priority:parseInt(@pinterestApiItem.Priority)
+                        },
+                        flickr: {
+                            id: '@flickrApiItem.AccountId',
+                            intro: 'Uploaded',
+                            lang: 'en-us',
+                            icon: '@flickrApiItem.Icon',
+                            priority: parseInt(@flickrApiItem.Priority)
+                        }
+                    },
+                    rotate: {
+                        delay: 0
+                    },
+                    remove: '',
+                    control: false,
+                    filter: true,
+                    wall: true,
+                    center: true,
+                    limit: @Model.CurrentItem.NumberofPosts.Value,
+                    max: 'limit'
+                });
+            });
+        })(jQuery);
+
+    </script>
+}
