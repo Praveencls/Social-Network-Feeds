@@ -1,0 +1,12 @@
+_ReSharper*
+temp/
+bin/
+obj/
+.svn/
+*.user
+*.suo
+libraries/
+sitecore/
+/data
+/packages
+/SocialFeeds/App_Browsers
